@@ -1,6 +1,6 @@
 ---
 title: Fuwari安装&使用
-published: 2025-08-18
+published: 2025-08-20
 description: '使用github page部署'
 image: ''
 tags: [指南,Fuwari]
@@ -9,7 +9,7 @@ draft: false
 lang: ''
 ---
 本文档为使用github page部署的指南
-# 安装fuwari（二选一）
+# 安装Fuwari（二选一）
 ## 1.直接fork原仓库
 ::github{repo="saicaca/fuwari"}
 
@@ -27,8 +27,8 @@ pnpm create fuwari@latest
 ✔ Initialize Git? Yes
 ```
 
-
-# 配置fuwari
+---
+# 配置Fuwari
 :::tip
 用pnpm安装时，基础网站信息会提前更改
 :::
@@ -84,7 +84,10 @@ base:"/"
 site:"https://username.github.io"
 base:"/newpost"
 ```
-
+:::tip
+若有域名可解析,则base:"/"
+:::
+---
 # github action 设置
 ## 关闭github已有action
 :::important
@@ -142,7 +145,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 ```
-
+---
 # 使用
 ## 本地运行并参考效果
 ```bash
