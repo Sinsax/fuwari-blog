@@ -27,7 +27,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 // https://astro.build/config
 export default defineConfig({
 	site: "https://sinsax.github.io/",
-	base: "Sinsapost",
+	base: "fuwari-blog",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
