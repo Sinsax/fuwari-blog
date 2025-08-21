@@ -26,19 +26,19 @@ bash -c "$(curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_star
 
 下载，然后解压在一个目录里
 
+> 使用systemd持续运行
+
 :::tip
-<?>尖括号是缺省参数
+filepath请替换为实际目录
 :::
-> systemd可持续运行
-```bash 
+```bash 'filepath'
 #ddbot.sh
 #!/bin/sh
-cd /<filepath>/ddbot
+cd /filepath/ddbot
 ./DDBOT-WSa
 ```
 
-```bash
-#ddbot.service
+```bash frame="code" title="ddbot.service" 'filepath'
 [Unit]
 Description=
 Documentation=
@@ -47,13 +47,14 @@ Wants=
 Requires=
 
 [Service]
+# 当失败时重启
 Restart=on-failure
 RestartSec=10s
 StartLimitIntervalSec=300
 StartLimitBurst=5
-ExecStart=/<filepath>/ddbot.sh
+ExecStart=/filepath/ddbot.sh
 ExecStop=
-ExecReload=/<filepath>/ddbot.sh
+ExecReload=/filepath/ddbot.sh
 Type=simple
 
 [Install]
@@ -102,8 +103,8 @@ docker run -d \
 mlikiowa/napcat-docker:latest
 ```
 ### docker-compose
-```bash
-# docker-compose.yml
+```bash frame="code" title="docker-compose.yml"
+
 version: "3"
 services:
     napcat:
@@ -140,22 +141,23 @@ ws://127.0.0.1:15630/ws
 > 在qq向小号发送消息
 >
 一些常用的指令
-```bash
+:::tip
+GROUP：群号
+UID：主播uid
+:::
+```bash 'GROUP' 'UID'
 # 指定管理员
 /whosyourdaddy
-/watch UID
-/watch -t news UID
-/config at_all --site bilibili UID on
-/config title_notify --site bilibili UID on
 
+# 各种通知
 # 直播
-/watch -g <group> <live>
+/watch -g GROUP UID
 # 动态
-/watch -g <group> -t news <live>
+/watch -g GROUP -t news UID
 # @全体
-/config -g <group> at_all --site bilibili <live> on
+/config -g GROUP at_all --site bilibili UID on
 # 标题修改
-/config -g <group> title_notify --site bilibili <live> on
+/config -g GROUP title_notify --site bilibili UID on
 ```
 ---
 参考内容：[DDBOT](https://ddbot.songlist.icu/),[NapNeko](https://napneko.github.io/),[napcat-1panel](https://github.com/Fahaxikiii/napcat-1panel)
