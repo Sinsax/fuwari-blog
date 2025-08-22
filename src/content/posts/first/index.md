@@ -2,7 +2,7 @@
 title: fisrt po
 published: 2025-08-17
 description: '写一点以后想记录的内容'
-image: './3bk.jpg'
+image: './3bk.avif'
 tags: [计划]
 category: '日常'
 draft: false 
