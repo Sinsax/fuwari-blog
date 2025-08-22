@@ -61,7 +61,7 @@ name: "Lorem Ipsum",
 ## 设置``astro.config.mjs``
 项目根目录下打开``astro.config.mjs``
 设置
-```mjs "https://fuwari.vercel.app/" ""/""
+```js "https://fuwari.vercel.app/" ""/""
 // https://astro.build/config
 export default defineConfig({
 	site: "https://fuwari.vercel.app/",
@@ -73,14 +73,14 @@ export default defineConfig({
 1. 名为``username.github.io``
 
 base可注释掉
-```mjs "base:"/""
+```js "base:"/""
 site:"https://username.github.io"
 base:"/"
 ```
 2. 其他名称
 
 项目名例如 ``newpost``
-```mjs "base:"/newpost""
+```js "base:"/newpost""
 site:"https://username.github.io"
 base:"/newpost"
 ```
