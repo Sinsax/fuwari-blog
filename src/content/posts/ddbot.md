@@ -158,6 +158,8 @@ UID：主播uid
 /config -g GROUP at_all --site bilibili UID on
 # 标题修改
 /config -g GROUP title_notify --site bilibili UID on
+# 下播推送
+/config -g GROUP offline_notify --site bilibili UID on
 ```
 ---
 参考内容：[DDBOT](https://ddbot.songlist.icu/),[NapNeko](https://napneko.github.io/),[napcat-1panel](https://github.com/Fahaxikiii/napcat-1panel)
