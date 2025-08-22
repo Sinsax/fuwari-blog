@@ -1,6 +1,6 @@
 ---
 title: 模型目录
-published: 2025-08-20
+published: 2025-08-22
 description: '均是我直接或参与制作的模型'
 image: ''
 tags: [blender,模型]
