@@ -12,6 +12,7 @@ lang: ''
 ---
 >按照最新的顺序排序
 
+<div style="width:70%">
 
 # 2025
 <details open=true>
@@ -154,3 +155,5 @@ lang: ''
 ---       
 </p>
 </details>
+
+</div>       
