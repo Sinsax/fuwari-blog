@@ -3,8 +3,8 @@ title: wacom按键绑定
 published: 2025-08-30
 description: '理论上什么按键都能绑定'
 image: ''
-tags: [wacom,按键绑定]
-category: '软件推荐'
+tags: [wacom,按键绑定,linux]
+category: 'linux'
 draft: false 
 lang: ''
 ---
