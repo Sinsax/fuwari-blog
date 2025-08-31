@@ -13,9 +13,9 @@ lang: ''
 - 所需软件:
     - [blender](https://www.blender.org/)
     - [vrm插件](https://github.com/saturday06/VRM-Addon-for-Blender)(4.5版本可直接在扩展中安装)
-    - [unity]()
-        - [univrm]()
-        - **可选** [VrmSpringBoneTool&VrmSkritTool](https://accounts.booth.pm/orders/44977050)
+    - 物理部分-Unity[2021.3.18f1]
+        - [Univrm](https://github.com/vrm-c/UniVRM)
+        - **可选** [VrmSpringBoneTool&VrmSkritTool](https://nalulululuna.booth.pm/items/4649509)
     
 
 大致思路
@@ -158,7 +158,11 @@ for index in range(len(bpy.context.object.material_slots)):
 ---
 
 # 在unity中添加物理
+~~吐槽一下vrm,这个格式又大又废,没有自己特有的功能，物理基本还比不上十几年前的mmd，真的太差劲了。~~
 
+~~唯一可用之处就是足够方便~~
+
+unity方面建议观看其他视频教程使用
 :::tip
 Gravlty Power 和 Stiffness Force 是相互影响的
 :::
@@ -170,9 +174,10 @@ Gravlty Power 和 Stiffness Force 是相互影响的
 
     - Gravity Power: 可以调节物体的受重力影响，配合Stiffness Force使用。值越高，重力影响越大
 
-## 推荐插件
-VrmSpringBoneTool:
-[教程可参考](https://youtu.be/WpoeFCxHVnE?t=918)
+**这里更推荐插件**：[VrmSpringBoneTool](https://nalulululuna.booth.pm/items/4649509)
+
+
+[教程可参考](https://youtu.be/WpoeFCxHVnE)
 
 
 
