@@ -1,6 +1,6 @@
 ---
 title: 任意模型转vrm
-published: 2025-08-30
+published: 2025-08-31
 description: ''
 image: ''
 tags: [vrm,blender,unity]
@@ -122,20 +122,21 @@ for name in Proxy:
 
 <div style="display: flex;margin: 0 auto;align-items: left;">
 <div>
-alpha模式：
+> alpha模式：
 <pre>
 opaque:不透明
 cutout:透明部分直接剔除(没有半透明)
 透明:根据贴图的半透明
 </pre>
-lit color&shade color:
+> lit color & shade color:
 <pre>
 直接填写原贴图
 </pre></div></div></div>
 
 ### MMD特用脚本
 ```python title="mmd2vrm_mat.py"
-## 需要手动校验材质是否为透明并修改
+# 需要手动校验材质是否为透明并修改
+# 校验透明度的功能以后可能会写 
 import bpy
 
 for index in range(len(bpy.context.object.material_slots)):
