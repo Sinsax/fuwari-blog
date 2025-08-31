@@ -164,11 +164,11 @@ Gravlty Power 和 Stiffness Force 是相互影响的
 :::
 - Spring_bone(物理)
 
-    - Stiffness Force: 可以调节物体的柔硬程度值越低，物体就越柔软值越高，物体越僵硬
+    - Stiffness Force: 可以调节物体的柔硬程度值越低，物体就越柔软。值越高，物体越僵硬
 
-    - Drag Force: 可以调节物体的弹性程度值越低，弹性越大值越高，弹性越低
+    - Drag Force: 可以调节物体的弹性程度值越低，弹性越大。值越高，弹性越低
 
-    - Gravity Power: 可以调节物体的受重力影响，配合 Gravity Di r 使用值越高，重力影响越大
+    - Gravity Power: 可以调节物体的受重力影响，配合Stiffness Force使用。值越高，重力影响越大
 
 ## 推荐插件
 VrmSpringBoneTool:
