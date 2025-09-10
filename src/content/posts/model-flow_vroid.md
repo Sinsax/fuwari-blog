@@ -5,7 +5,7 @@ description: 'vroid素体+blender'
 image: ''
 tags: [model,流程,blender,mmd,arkit,vrm,vroid]
 category: 'blender'
-draft: true 
+draft: false 
 lang: ''
 ---
 

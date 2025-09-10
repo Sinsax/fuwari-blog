@@ -25,32 +25,27 @@ lang: ''
 - **PmxEditor**内修改骨骼及其物理
 
 # 绑定为vrm
-
-## 映射骨骼
-> 用mmd骨骼类比一下
-
-![](image/mmd_map.avif)
-
-## 表情
-
-**可以不做修改**
-
-## 导出
-直接导出就行
+参考此篇
+[任意模型转vrm](../vrm-create/vrm-create/)
 
 # VRM2PMXConverter
 拖进去，转换即可
-![]()
+![](image/vrm2pmx.webp)
 # blender内修改
 对导出的pmx模型进行修改
 
 # PmxEditor
-补充所需骨骼
-设置骨骼物理
-显示杂设置
-表情设置
+更多的是使用经验来
+## 补充所需骨骼
+
+## 设置骨骼物理
+
+## 显示杂设置
+
+## 表情设置
 
 导出为pmx
+---
 
 **最后在MMD中检查**
 

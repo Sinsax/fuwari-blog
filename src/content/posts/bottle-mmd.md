@@ -1,18 +1,18 @@
 ---
 title: linux内使用bottle启动MMD和PE
-published: 2025-08-30
+published: 2025-08-26
 description: ''
 image: ''
 tags: []
 category: 'mmd'
-draft: true 
+draft: false 
 lang: ''
 ---
 
 对此篇文档的一个笔记:
 > [嘗試在Linux跑MikuMikuDance和PMX Editor建模軟體](https://ivonblog.com/posts/mikumikudance-linux/)
 
-安装Bottles
+# 安装Bottles
 
 右上角➕新建bottle
 
@@ -39,3 +39,6 @@ lang: ''
 新建环境变量
 
     LANG=ja_JP.UTF-8
+
+# PE可共用这个bottle
+导入模型可能需要从菜单，不能直接拖入
