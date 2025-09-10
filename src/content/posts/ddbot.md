@@ -4,7 +4,7 @@ published: 2025-08-21
 description: '每次都忘记怎么弄，遂记录'
 image: ''
 tags: [DDbot,QQ,NapCat]
-category: 'QQ'
+category: '日常'
 draft: false 
 lang: ''
 ---

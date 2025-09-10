@@ -3,8 +3,8 @@ title: 任意模型转换为pmx
 published: 2025-08-25
 description: ''
 image: ''
-tags: []
-category: 'mmd'
+tags: [mmd,vrm,blender]
+category: '模型'
 draft: true 
 lang: ''
 ---

@@ -3,8 +3,8 @@ title: linux内使用bottle启动MMD和PE
 published: 2025-08-26
 description: ''
 image: ''
-tags: []
-category: 'mmd'
+tags: [wine,mmd,bottle]
+category: '模型'
 draft: false 
 lang: ''
 ---

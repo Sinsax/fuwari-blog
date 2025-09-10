@@ -3,8 +3,8 @@ title: 模型制作流程(vroid素体)
 published: 2025-08-24
 description: 'vroid素体+blender'
 image: ''
-tags: [model,流程,blender,mmd,arkit,vrm,vroid]
-category: 'blender'
+tags: [模型,流程,blender,mmd,arkit,vrm,vroid]
+category: '模型'
 draft: false 
 lang: ''
 ---
