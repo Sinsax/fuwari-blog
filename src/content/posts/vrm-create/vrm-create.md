@@ -153,14 +153,17 @@ for index in range(len(bpy.context.object.material_slots)):
 
 ## 导出
 **参数默认直接导出就行**
-
+:::Tip
+导出时将有形态键的网格拆分出来
+能显著减小vrm文件大小
+:::
+:spoiler[**怀疑是合并时将所有顶点都作为形态键的内容,即使没有也如此.**]
 
 ---
 
 # 在unity中添加物理
 
-吐槽一下vrm<br>
-:spoiler[**这个格式又大又废,没有自己特有的功能.<br>物理基本还比不上十几年前的mmd，真的太差劲了。<br>唯一可用之处就是足够方便，很多软件都支持.**]
+
 
 unity方面建议观看其他视频教程使用
 :::tip
@@ -179,5 +182,7 @@ Gravlty Power 和 Stiffness Force 是相互影响的
 
 [教程可参考](https://youtu.be/WpoeFCxHVnE)
 
-
+---
+吐槽一下vrm<br>
+:spoiler[**这个格式又大又废,没有自己特有的功能.<br>物理基本还比不上十几年前的mmd，真的太差劲了。<br>唯一可用之处就是足够方便，很多软件都支持.**]
 
