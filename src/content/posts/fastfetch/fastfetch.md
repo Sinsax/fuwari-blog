@@ -14,7 +14,11 @@ lang: ''
 paru jp2a
 ```
 
+
 # 转换图片到ascii形式的文本
+:::Tip
+最好是已经抠图过的png图片
+:::
 ```bash
 jp2a logo.jpg --size=20x10 --color --background=light >logo.txt
 ```
@@ -41,6 +45,8 @@ jp2a logo.jpg --size=20x10 --color --background=light >logo.txt
         "title":"#ce846f"
     },
 ```
+
+# 效果展示
 ![](image/fish.webp)
 
 <details>
