@@ -79,7 +79,8 @@ const bannerOffset =
 	<head>
 
 		<title>{pageTitle}</title>
-
+		<meta name="msvalidate.01" content="DED5A804D3230DB6CAA9589835C7A28C" />
+		<meta name="google-site-verification" content="lS58BCsI_m9Mbrpj3iNurHRXjR58_j2q6kj0dJXx8QQ" />
 		<meta charset="UTF-8" />
 		<meta name="description" content={description || pageTitle}>
 		<meta name="author" content={profileConfig.name}>
@@ -136,7 +137,18 @@ const bannerOffset =
 			let offset = Math.floor(window.innerHeight * (BANNER_HEIGHT_EXTEND / 100));
 			offset = offset - offset % 4;
 			document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`);
+
+			// https://tongji.baidu.com/
+			var _hmt = _hmt || [];
+			(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?79e4fead951c5a7040d928add2d29685";
+			var s = document.getElementsByTagName("script")[0]; 
+			s.parentNode.insertBefore(hm, s);
+			})();
+
 		</script>
+		
 		<style define:vars={{
 			configHue,
 			'page-width': `${PAGE_WIDTH}rem`,
