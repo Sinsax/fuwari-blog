@@ -37,7 +37,7 @@ nvim
 vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
 ```
 
-```tree "options.lua"
+```txt title="目录结构参考" "options.lua"
 ~/.config/nvim
 ├── lua
 │   ├── config
