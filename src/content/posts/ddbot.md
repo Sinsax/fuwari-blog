@@ -31,13 +31,17 @@ bash -c "$(curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_star
 :::tip
 filepath请替换为实际目录
 :::
-```bash 'filepath'
+```bash title = "ddbot.sh" 'filepath'
 #ddbot.sh
 #!/bin/sh
 cd /filepath/ddbot
 ./DDBOT-WSa
 ```
-
+保存后赋予运行权限
+```bash
+chmod +x ddbot.sh
+```
+创建service文件
 ```bash frame="code" title="ddbot.service" 'filepath'
 [Unit]
 Description=
