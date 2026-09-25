@@ -4,7 +4,7 @@ published: 2026-09-25
 description: '心血来潮的记录，日后更新没有参考性'
 image: ''
 tags: [dsh,harness]
-category: 'AI'
+category: 'Ai'
 draft: false 
 lang: ''
 ---

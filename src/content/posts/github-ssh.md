@@ -4,7 +4,7 @@ published: 2025-09-16
 description: ''
 image: ''
 tags: []
-category: ''
+category: '日常'
 draft: false 
 lang: ''
 ---
